@@ -29,14 +29,9 @@ const result = calculateArchitectureResults(DEFAULT_ARCHITECTURE_PARAMS);
 
 Framework-agnostic TypeScript, zero runtime dependencies.
 
-## Work with LangOptima
+## Built by LangOptima
 
-If the model points toward a graph-grounded architecture and you want help designing it:
-
-1. **Run the live tool** → [tools.langoptima.com/llm-architecture-choice](https://tools.langoptima.com/llm-architecture-choice).
-2. **Book an architecture scoping call** → [calendly.com/langoptima](https://calendly.com/langoptima).
-
-How we ground enterprise AI in a knowledge layer: [langoptima.com/product/context-graphs](https://www.langoptima.com/product/context-graphs).
+LangOptima builds AI-ready data and knowledge-graph systems for enterprises. This is one of our open-source [free tools](https://tools.langoptima.com) — [langoptima.com](https://www.langoptima.com).
 
 ## License
 
