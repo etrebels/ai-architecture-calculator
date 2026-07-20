@@ -118,7 +118,7 @@ export function getInsight(topId: ArchitectureId, p: ArchitectureParams): string
   if (topId === "crag") return "Corrective RAG scores highest. Its self-evaluation catches retrieval errors before they reach the LLM (ICLR 2024: +35.8 points on PubHealth). Still vector-based \u2014 no structural provenance.";
   if (topId === "grag") return "GraphRAG scores highest. It bridges vector retrieval and full knowledge graphs \u2014 adding relational reasoning without ontology investment. NVIDIA 2024: excels in correctness.";
   if (topId === "arag") return "Agentic RAG scores highest. Its reasoning agent verifies claims iteratively (RAG-Gym: +25.6% over baselines). Watch per-query cost at scale.";
-  return "KnowledgeGraphRAG scores highest. Every inference traces to a typed, authoritative source. The investment in ontology design pays dividends in accuracy, explainability, and audit readiness.";
+  return "KnowledgeGraphRAG scores highest. Every inference traces to a typed, authoritative source. The investment in ontology design pays dividends in accuracy, explainability, and audit readiness. In a controlled regulated-translation study, Gene & Sosoni (2026, peer-reviewed) recorded 100% source-compliance detection vs 0% for LLM baselines, with deterministic output where the baselines varied run to run.";
 }
 
 export function getDiscoveryQuestion(topId: ArchitectureId, p: ArchitectureParams): string {

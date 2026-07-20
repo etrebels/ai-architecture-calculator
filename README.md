@@ -29,6 +29,15 @@ const result = calculateArchitectureResults(DEFAULT_ARCHITECTURE_PARAMS);
 
 Framework-agnostic TypeScript, zero runtime dependencies.
 
+## Research behind the model
+
+Base scores are calibrated composites across published benchmarks and peer-reviewed research (Gartner, NVIDIA, Lettria/AWS, ICLR 2024, and clinical KG studies) — not single benchmark values, so individual scores won't match any one study exactly. Peer-reviewed evidence for grounding retrieval in a knowledge graph in regulated, high-risk domains:
+
+- Gene, V. & Sosoni, V. (2026). *Dual-Metric Compliance and Quality Evaluation of Knowledge Graph Mediated Translation in Regulated Domains.* NeTTIT 2026. [doi.org/10.26615/issn.2815-4711.2026_015](https://doi.org/10.26615/issn.2815-4711.2026_015)
+- Gene, V. & Sosoni, V. (2026). *Knowledge-guided machine translation for regulatory compliance in high-risk industries.* Convergence 2026 (University of Surrey).
+
+Both papers are downloadable from [tools.langoptima.com/research](https://tools.langoptima.com/research).
+
 ## Built by LangOptima
 
 LangOptima builds AI-ready data and knowledge-graph systems for enterprises. This is one of our open-source [free tools](https://tools.langoptima.com) — [langoptima.com](https://www.langoptima.com).
